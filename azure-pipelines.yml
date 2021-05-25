@@ -115,7 +115,7 @@ stages:
             displayName: Generate schema change script
             inputs:
               azureSubscription: 'Visual Studio Enterprise サブスクリプション - MPN'
-              authenticationType: 'server'
+              authenticationType: 'server' 
               serverName: '$(servername).database.windows.net'
               databaseName: '$(databasename)'
               sqlUsername: '$(adminlogin)'
